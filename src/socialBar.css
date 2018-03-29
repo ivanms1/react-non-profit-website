@@ -1,0 +1,56 @@
+                <div className="socialBarBox">
+                    <ul className='socialBar'>
+                        <li><a href="/"><i className="fab fa-facebook-square"></i> Facebook</a></li>
+                        <li><a href="/"><i className="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="/"><i className="fab fa-youtube"></i> Youtube</a></li>
+                        <li><a href="/"><i className="fab fa-line"></i> Line</a></li>
+                    </ul>
+                </div>
+
+
+.socialBarBox{
+  margin: 20px;
+  -webkit-animation: fadein 2s;
+}
+
+.socialBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 30px;
+  width: 45vw;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+.socialBar li {
+  background-color: white;
+  border-radius: 0.5vw;
+  width: 130px;
+  transition: all .2s ease-in-out;
+  box-shadow: 1px 2px 2px black;
+}
+.socialBar li a{
+  text-decoration: none;
+  color: black;
+}
+
+.socialBar li:hover{
+  transform: scale(1.1);
+}
+
+.fa-facebook-square{
+  color:#3b5998;
+}
+
+.fa-instagram{
+  color: #8a3ab9;
+}
+
+.fa-youtube{
+  color:#ff0000;
+}
+
+.fa-line{
+  color:#00c300;
+}
