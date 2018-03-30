@@ -64,6 +64,7 @@ time, mark, audio, video {
   border-radius: 2%;
   margin: 1%;
   -webkit-animation: fadein2 2s;
+
 }
 
 
@@ -155,6 +156,7 @@ time, mark, audio, video {
   font-weight: 100;
   border-radius: 2%;
   margin: 2%;
+  text-shadow: 4px 8px 6px rgba(0,0,0,0.5);
 
 }
 
@@ -328,7 +330,7 @@ time, mark, audio, video {
 .donateBox{
   height: 100%;
   display: grid;
-  grid-template-columns: 50vw 50vw;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 40% 40%;
   grid-template-areas:
     "words words"
@@ -343,7 +345,8 @@ time, mark, audio, video {
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   background-attachment: fixed;
   padding: 2% 0;
 }
@@ -366,7 +369,7 @@ time, mark, audio, video {
   align-items: center;
   height: 100%;
   width: 30vw;
-  margin: 0 10vw;
+  margin: 0 5vw;
 }
 
 .words{
@@ -387,17 +390,16 @@ time, mark, audio, video {
 .numberInput{
   font-size: 1.5vw;
   height: 100%;
-  margin-right: 1vw;
+  margin:1%;
 }
 
 .donateBtn{
-  height: 120%;
-  font-size: 1.3vw;
+  height: 50%;
+  font-size: 1.5vw;
 }
 
 
 .donate{
-  width: 40vw;
   height: 140%;
   display: flex;
   justify-content: flex-start;
@@ -412,13 +414,12 @@ time, mark, audio, video {
   align-items: center;
   flex-direction: column;
   height: 150%;
-  width: 40vw;
 }
 
 select{
   font-size: 1.5vw;
   font-family:'Open Sans Condensed', sans-serif;
-  width: 25vw;
+  width: 13vw;
   height: auto;
 
 }
@@ -439,53 +440,89 @@ select{
 
 .imgDiv5{
   background-image: url('./pics/pic5.jpg');
-  height: 100%;
+  height: 25vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   background-attachment: fixed;
 }
 
+.contactTitle{
+  color:white;
+  font-size: 5.5vw;
+  text-shadow: 4px 8px 6px rgba(0,0,0,0.3);
+}
+
+.contactForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 form{
-  padding:0% 2%;
+  padding:5%;
   text-align: left;
   display: flex;
   flex-direction: column;
+  width: 70vw;
+
 }
 
-span{
-  color: white;
-  margin: 1% 0;
-  padding: 1%;
-  font-size: 2.5vw;
-  text-shadow: -1px 0 black, 0 .5px black, .5px 0 black, 0 -1px black;
+form p {
+  margin: 1%;
+  font-size: 2vw;
 }
 
 input{
-  font-size: 1.4vw;
+  font-size: 1.5vw;
   font-family: inherit;
-  width: 15vw;
   letter-spacing: 1px;
+  margin: 1%;
+  width: 75%;
+  height: 3.5vw;
 }
 textarea{
   font-family: inherit;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   letter-spacing: 1px;
+  margin: 1%;
+  width: 75%;
+  height: 3.5vw;
 }
+
+
 
 form button{
   font-family: inherit;
-  margin: 3% 0;
+  margin: 5% 1% 1% 1%;
   width: 30%;
   font-size: 1.5vw;
 }
 
 form button:hover{
 
+}
+
+.connect{
+  margin: 0%;
+  padding: 4% 10%;
+}
+
+.connect h2{
+  font-size: 2.5vw;
+}
+
+.connect p {
+  font-size: 1.5vw;
+}
+
+.footer{
+  background-color: #2A3143;
 }
 
 .uniInfo{
@@ -495,7 +532,7 @@ form button:hover{
 .uniInfo h2{
   color: white;
   text-shadow: -1px 0 black, 0 .5px black, .5px 0 black, 0 -1px black;
-  font-size: 5vw;
+  font-size: 2.5vw;
 }
 
 .accordion{
@@ -503,7 +540,7 @@ form button:hover{
   min-width: 400px;
   overflow: hidden;
   font-size: 0;
-  height: 100px;
+  height: 75px;
   display: block;
 }
 
@@ -511,8 +548,8 @@ form button:hover{
   display: inline-block;
   background-color: #666;
   border-right: #333 solid 1px;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   overflow: hidden;
   position: relative;
   margin: 0;
@@ -522,29 +559,29 @@ form button:hover{
 
 .tab .content{
   background-color: #fff;
-  height: 80px;
-  width: 200px;
+  height: 60px;
+  width: 150px;
   position: relative;
-  padding: 4px;
-  margin-left:80px; 
+  padding: 3px;
+  margin-left:60px; 
 }
 
 .tab .content h1{
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
 
 }
 .tab .content p{
-  font-size: 1vw;
+  font-size: .8vw;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
 }
 
 .tab:hover{
-  width: 280px;
+  width: 210px;
 }
 
 
@@ -555,21 +592,21 @@ form button:hover{
 .social a:after,
 .social a:before {
   transition: all .5s ease-in-out 0.1s;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   position: absolute;
   text-indent: 0;
-  padding-top: 25px;
+  padding-top: 18.75px;
   padding-left: 0px;
   display: block;
-  font: normal 30px Genericons;
+  font: normal 22.5px Genericons;
   color: #fff;
 }
 
 .social a:after {
-  font-size: 30px;
-  padding-top: 25px;
-  margin-left: 80px;
+  font-size: 22.5px;
+  padding-top: 18.75px;
+  margin-left: 60px;
 }
 
 .youtube a:before,
@@ -602,6 +639,14 @@ form button:hover{
 }
 .twitter a:after {
   background-color: #6dc5dd;
+}
+
+.rights{
+  color: #f4f4f4;
+}
+
+.rights p a {
+  color: #f4f4f4;
 }
 
 input[type=checkbox] {width:1.5vw; height:1.5vw;}
@@ -708,6 +753,9 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
     font-size: 190%;
   }
 
+  .imgDiv4{
+  }
+
   .donateParBox{
     height: 30%;
   }
@@ -796,26 +844,53 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
     flex-direction:column;
   }
 
+  .contactTitle{
+    font-size: 14vw;
+  }
+
+  .contactForm{
+    flex-direction: column;
+    align-items:center;
+  }
+
   form {
     width: 95%;
   }
 
-  span{
-  font-size: 10vw;
-}
+  form p {
+    font-size: 8vw;
+  }
 
-input{
+  input{
+  height: 5vw;
   font-size: 6vw;
-  width: 50vw;
+  width: 70vw;
+  margin: 2%;
+  }
 
-}
-textarea{
-  font-size: 8vw;
-}
-
-form button{
+  textarea{
   font-size: 6vw;
-}
+  width: 80vw;
+  height: 10vw;
+  margin: 2%;
+  }
+
+  form button{
+    font-size: 4vw;
+    margin: 2%;
+  }
+
+  .connect h2{
+    font-size: 8vw;
+  }
+
+  .connect p {
+    font-size: 5vw;
+  }
+
+  .uniInfo h2{
+    font-size: 5vw;
+  }
 
 }
 

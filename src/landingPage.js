@@ -89,15 +89,25 @@ function LandingPage(props){
 						<h2 className="title4">Contact</h2>
 					</div>
 					<div className="imgDiv5">
+						<div className='contactTitleContainer'>
+							<h1 className='contactTitle'>Get in touch with us</h1>
+						</div>
+					</div>
+					<div className="contactForm">
 						<form action="">
-							<span>Your Name</span>
-							<input type="text" name="name"/>
-							<span>Your Email</span>
-							<input type="email" name="email"/>
-							<span>Your Message</span>
-							<textarea rows='6' cols='40' name="message" placeholder="Your message here"></textarea>
+							<p>Please fill this form</p>
+							<input type="text" name="name" placeholder="Your name"/>
+							<input type="email" name="email" placeholder="Your email"/>
+							<textarea rows='3' cols='5' name="message" placeholder="Your message"></textarea>
 							<button type='submit' value='Submit'>Submit</button>
 						</form>
+						<div className="connect">
+							<h2>Connect with us</h2>
+							<p>For any other question:</p>
+							<p>Email us at <a href="/">uniskripthailand@gmail.com</a></p>
+						</div>
+					</div>
+					<div className="footer">
 						<div className="uniInfo">
 							<h2>Follow Us On Social Media</h2>
 							<ul className="accordion">
@@ -116,7 +126,7 @@ function LandingPage(props){
 									</div>
 									<div className="content">
 										<h1>Youtube</h1>
-										<p>Follow us on Youtube for video updates</p>
+										<p>Suscribe to our channel</p>
 									</div>
 								</i>
 								<i class='tab'>
@@ -138,6 +148,10 @@ function LandingPage(props){
 									</div>
 								</i>
 							</ul>
+						</div>
+						<div className="rights">
+							<p>© Uniskript 2018. All rights reserved</p>
+							<p>Made by <a href="https://wwwivanmaximilianocom.000webhostapp.com/">Ivan</a></p>
 						</div>
 					</div>
 				</div>
