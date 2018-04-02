@@ -111,7 +111,7 @@ function LandingPage(props){
 						<div className="uniInfo">
 							<h2>Follow Us On Social Media</h2>
 							<ul className="accordion">
-								<i class='tab'>
+								<i className='tab'>
 									<div className="social facebook">
 										<a href="https://www.facebook.com" target='_blank'>Facebook</a>
 									</div>
@@ -120,7 +120,7 @@ function LandingPage(props){
 										<p>Follow our page on Facebook</p>
 									</div>
 								</i>
-								<i class='tab'>
+								<i className='tab'>
 									<div className="social youtube">
 										<a href="https://www.youtube.com" target='_blank'>Youtube</a>
 									</div>
@@ -129,7 +129,7 @@ function LandingPage(props){
 										<p>Suscribe to our channel</p>
 									</div>
 								</i>
-								<i class='tab'>
+								<i className='tab'>
 									<div className="social instagram">
 										<a href="https://www.instagram.com" target='_blank'>Instagram</a>
 									</div>
@@ -138,7 +138,7 @@ function LandingPage(props){
 										<p>Follow us on Instagram</p>
 									</div>
 								</i>
-								<i class='tab'>
+								<i className='tab'>
 									<div className="social twitter">
 										<a href="https://www.line.com" target='_blank'>Twitter</a>
 									</div>
