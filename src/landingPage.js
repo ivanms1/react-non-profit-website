@@ -62,7 +62,7 @@ function LandingPage(props){
 										<input className='numberInput' type="number"/>
 										<input className='donateBtn' type="submit" value='Donate'/>
 									</div>
-									<div className="checkboxBox2">
+									<div className="checkboxBox">
 										<input className='checkbox' type="checkbox" name='time' value='monthly'/> Monthly <br/>
 									</div>
 							</div>

@@ -339,7 +339,7 @@ time, mark, audio, video {
 
 .imgDiv4{
   background-image: url('./pics/3147.jpg');
-  height: 67.2vh;
+  height: 40vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -348,11 +348,11 @@ time, mark, audio, video {
   justify-content: center;
   align-items: center;
   background-attachment: fixed;
-  padding: 2% 0;
+  padding: 5% 0;
 }
 .donateParBox{
-  height: 10%;
-  padding: 1%;
+  height: auto;
+  padding: 0 2%;
 }
 .donatePar{
   font-size: 3vw;
@@ -400,7 +400,6 @@ time, mark, audio, video {
 
 
 .donate{
-  height: 140%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -413,14 +412,13 @@ time, mark, audio, video {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  height: 150%;
+  height: auto;
 }
 
 select{
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   font-family:'Open Sans Condensed', sans-serif;
   width: 13vw;
-  height: auto;
 
 }
 
@@ -431,11 +429,8 @@ select{
   border-radius: 10px;
 }
 
-.checkboxBox2{
-  background-color: rgba(255,255,255,0.7);
-  font-size: 2.5vw;
-  border-radius: 10px;
-
+.checkbox{
+  margin: 0%;
 }
 
 .imgDiv5{
@@ -754,6 +749,7 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
   }
 
   .imgDiv4{
+    height: auto;
   }
 
   .donateParBox{
@@ -762,6 +758,7 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
 
   .donatePar{
     font-size: 156%;
+    margin-bottom: 5%;
   }
 
   .donateBox{
@@ -778,12 +775,15 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
   }
 
   .donate{
-    width: 80%;
+    width: auto;
+    height: auto;
+    margin: 2% 0 7% 0;
   }
 
   .donateTeacher{
     width: 80%;
-    height: 100%;
+    height: auto;
+    margin: 2% 0;
   }
 
   .word1{
@@ -805,7 +805,7 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
   }
 
   .wordsBox{
-    height: 70%;
+    height: auto;
   }
 
   .words{
@@ -825,13 +825,10 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
     font-size: 120%;
   }
 
-  .checkboxBox, .checkboxBox2{
+  .checkboxBox{
     font-size: 130%;
   }
 
-  .checkboxBox{
-
-  }
   input[type=checkbox] {width:5vw; height:5vw;}
 
   .pageTwo, .imgDiv, .imgDiv2, .imgDiv3, .imgDiv4, .imgDiv5{
@@ -851,10 +848,11 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
   .contactForm{
     flex-direction: column;
     align-items:center;
+    width: 100%;
   }
 
   form {
-    width: 95%;
+    width: 90%;
   }
 
   form p {
@@ -892,6 +890,11 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
     font-size: 5vw;
   }
 
+  .accordion{
+    min-width: 0;
+  }
+
+
 }
 
 @supports (-webkit-overflow-scrolling: touch) {
@@ -903,8 +906,36 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
     padding: 10% 0;
     }
   .imgDiv4{
-    min-height: 550px;
+    height: 75vh;
+    overflow: hidden;
+    padding-bottom: 15%;
+    padding-top: 0;
     }
+
+    .donateParBox{
+      margin-top: 5%;
+      margin-bottom:-5%;
+    }
+
+    .donatePar{
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .donateBox{
+      padding-top: 0;
+    }
+    .donate{
+    width: auto;
+    height: auto;
+    margin-bottom:5%;
+  }
+
+  .donateTeacher{
+    width: 80%;
+    height: auto;
+    margin: 0%;
+  }
 
   }
 
