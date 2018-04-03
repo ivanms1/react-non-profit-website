@@ -304,7 +304,7 @@ time, mark, audio, video {
 .imgDiv3{
 
   background-image: url('./pics/pic4.jpg');
-  height: 40vw;
+  height: 35vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -742,6 +742,7 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
 
   .imgDiv3{
     height: auto;
+    padding: 4% 0;
   }
 
   .studentsPar{
@@ -839,6 +840,7 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
 
   .imgDiv5{
     flex-direction:column;
+    height: 35vw;
   }
 
   .contactTitle{
@@ -900,10 +902,6 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
 @supports (-webkit-overflow-scrolling: touch) {
   .imgDiv{
     min-height: 400px;
-    }
-  .imgDiv3{
-    min-height: auto;
-    padding: 10% 0;
     }
   .imgDiv4{
     height: 75vh;

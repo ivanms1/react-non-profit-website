@@ -72,7 +72,7 @@ function LandingPage(props){
 									<input className='donateBtn' type="submit" value='Donate'/>
 								</div>
 								<select name="Teachers">
-									<option value="" selected disabled hidden>Choose your teacher</option>
+									<option value="teacher">Choose your teacher</option>
 									<option value="Paul">Paul</option>
 									<option value="Pone">Pone</option>
 									<option value="Pla">Pla</option>
