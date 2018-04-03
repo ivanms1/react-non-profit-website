@@ -102,6 +102,11 @@ time, mark, audio, video {
   flex-direction:column;
   justify-content:top;
   align-items:center;
+  transition: opacity .5s ease-in-out;
+}
+
+.hidden{
+  opacity: 0;
 }
 
 .navBar{
@@ -304,7 +309,7 @@ time, mark, audio, video {
 .imgDiv3{
 
   background-image: url('./pics/pic4.jpg');
-  height: 35vw;
+  height: 40vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -312,6 +317,10 @@ time, mark, audio, video {
   flex-direction: column;
   justify-content: center;
   background-attachment: fixed;
+}
+
+.studentsImgBox{
+  padding: 1%;
 }
 
 .studentsImg{
@@ -665,7 +674,7 @@ input[type=checkbox] {width:1.5vw; height:1.5vw;}
   }
 
   .navBar{
-    font-size: 115%;
+    font-size: 6vw;
     height: auto;
   }
 

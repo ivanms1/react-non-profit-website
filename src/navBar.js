@@ -2,7 +2,11 @@ import React from 'react';
 import './App.css';
 
 function NavBar(props) {
-        return <div className='navBarContainer'>
+	let className = 'navBarContainer';
+	if(props.position === 0){
+		className += ' hidden'
+	} else className = 'navBarContainer';
+        return <div className={className}>
             <ul className='navBar'>
                 <li><a href="/">Uniskript</a></li>
                 <li><a href="/">Teachers</a></li>

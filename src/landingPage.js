@@ -6,7 +6,7 @@ import PageOne from './pageOne';
 function LandingPage(props){
 	return  <div className='landingPage container'>
 				<div className='pageTwo'>
-					<NavBar/>
+					<NavBar position={props.position}/>
 						<h1 className='title2'>Akha</h1>
 						<p className='subtitle2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				</div>
