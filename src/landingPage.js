@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import NavBar from './navBar';
-import PageOne from './pageOne';
 
 function LandingPage(props){
 	return  <div className='landingPage container'>
@@ -113,7 +112,7 @@ function LandingPage(props){
 							<ul className="accordion">
 								<i className='tab'>
 									<div className="social facebook">
-										<a href="https://www.facebook.com" target='_blank'>Facebook</a>
+										<a href="https://www.facebook.com" rel="noopener noreferrer" target='_blank'>Facebook</a>
 									</div>
 									<div className="content">
 										<h1>Facebook</h1>
@@ -122,7 +121,7 @@ function LandingPage(props){
 								</i>
 								<i className='tab'>
 									<div className="social youtube">
-										<a href="https://www.youtube.com" target='_blank'>Youtube</a>
+										<a href="https://www.youtube.com" rel="noopener noreferrer" target='_blank'>Youtube</a>
 									</div>
 									<div className="content">
 										<h1>Youtube</h1>
@@ -131,7 +130,7 @@ function LandingPage(props){
 								</i>
 								<i className='tab'>
 									<div className="social instagram">
-										<a href="https://www.instagram.com" target='_blank'>Instagram</a>
+										<a href="https://www.instagram.com" rel="noopener noreferrer" target='_blank'>Instagram</a>
 									</div>
 									<div className="content">
 										<h1>Instagram</h1>
@@ -140,7 +139,7 @@ function LandingPage(props){
 								</i>
 								<i className='tab'>
 									<div className="social twitter">
-										<a href="https://www.line.com" target='_blank'>Twitter</a>
+										<a href="https://www.line.com" rel="noopener noreferrer" target='_blank'>Twitter</a>
 									</div>
 									<div className="content">
 										<h1>Twitter</h1>

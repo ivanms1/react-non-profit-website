@@ -3,8 +3,6 @@ import './App.css';
 import PageOne from './pageOne';
 import LandingPage from './landingPage'
 
-
-
 class App extends Component {
 	constructor(props){
 		super(props)
